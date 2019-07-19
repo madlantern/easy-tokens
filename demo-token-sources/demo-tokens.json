@@ -1,0 +1,34 @@
+{
+	"sku5890": {
+		"name": "Yellow Pencil Pack",
+		"sku" : "5890",
+		"brand": "Realwood",
+		"quantity": "24",
+		"description": "24 real pine and graphite pencils. Yellow #2, great for tests.",
+		"price": "$3.99"
+	},
+	"sku5898": {
+		"name": "Green Pencil Pack",
+		"sku" : "5898",
+		"brand": "Whirly Whippers",
+		"quantity": "24",
+		"description": "24 bamboo pencils. Made from quickly renewable resources.",
+		"price": "$5.99"
+	},
+	"sku5760": {
+		"name": "Red Pencil Pack",
+		"sku" : "5760",
+		"brand": "Know Knots",
+		"quantity": "12",
+		"description": "12 red pencils. Only writes in red. Excellent for grading papers.",
+		"price": "$1.99"
+	},
+	"sku3299": {
+		"name": "Broken Pencil Pack",
+		"sku" : "3299",
+		"brand": "Various",
+		"quantity": "50",
+		"description": "50 broken pencils. These are still usable but shorter. Very good deal.",
+		"price": "$0.50"
+	}		
+}

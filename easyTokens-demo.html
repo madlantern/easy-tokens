@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Easy Tokens</title>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="description" content="Demo of Madlantern's Easy Tokens Script"/>
+        <!-- If you do not already have jquery loaded, the token script will load jquery for you from the Google CDN. If you'd rather not use that version, please load another here above the instantFilterList-dist.js script reference.  -->
+        <script type="text/javascript" async="async" defer="defer" src="/madln-easy-tokens/easyTokens-dist.js"></script> <!-- link to the instant filter javascript, that's all! -->
+        
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .demoTitle {
+                background-color: #1191b9;
+                color: #ffffff;
+                font-size: 17px;
+                font-weight: bold;
+                padding: 10px;
+                margin-top: 10px;
+                margin-bottom: 15px;
+            }
+        </style>
+
+    </head>
+
+    <body>
+
+        <input type="hidden" value="/demo-token-sources/demo-tokens.json" name="products" data-madln-token-rule data-madln-token-refresh-days=".0002" />
+
+        <div class="demoTitle">Load a list of tokens:</div>
+        
+        <ul class="madln-easyTokens"></ul>
+
+        &nbsp;
+
+        <div class="demoTitle">Load a table of tokens:</div>
+
+        <table class="madln-easyTokens" data-filter-style="madln-showBorders madln-staggerColors"></table>
+
+        &nbsp;
+
+        <div class="demoTitle">Load individual tokens:</div>
+
+        <p>50% off red pencils (regular <span class="madln-easyTokens" data-madln-token-find="sku5760.price"></span>) when you buy yellow pencils at our every-day great low price of <span class="madln-easyTokens" data-madln-token-find="sku5890.price"></span>! Today only!</p>
+
+
+        
+
+    </body>
+
+</html>

@@ -1,0 +1,32 @@
+table.madln-easyTokens {
+    border-collapse: collapse;
+    margin:8px 0px;
+    td, th {
+        text-align: left;
+        padding:5px;
+        margin:0px;
+    }
+    &.madln-showBorders {
+        border:1px solid #333333;           
+        td, th {
+            border: 1px solid #333333;
+        }   
+    }
+    &.madln-staggerColors {  
+        tr:nth-child(odd){
+            background-color:#CCCCCC;
+        }
+        tr:nth-child(even) {
+            background-color:#EEEEEE;
+        }              
+    }
+}
+ul.madln-easyTokens, ul.madln-easyTokens {
+    li { 
+        margin-bottom: 15px;
+    }
+    .itemLabel {
+        font-weight: bold;
+    }
+}
+
